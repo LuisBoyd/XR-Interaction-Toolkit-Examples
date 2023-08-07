@@ -1,0 +1,105 @@
+﻿{
+  "HuntingGameModeDescriptions" : [
+    {
+      "gamemodedifficulty": "NONE",
+      "description": "Several <color=grey>gray</color> targets are flying\naround the 360° screen. One target is marked <color=green>green</color> as target\ntarget. The game is about visual scanning of the screen,\ndetecting the target target, and shooting it. When the target is\nhit, the target turns to a <color=grey>gray</color> target and a new target is marked\n<color=green>green</color>. Find and shot as many <color=green>green</color> targets as possible withing\n60 sec. In an advanced mode, a time limit only gives you 2\nsecs to find a target, then the target target switches."
+    },
+    {
+      "gamemodedifficulty": "EASY",
+      "description": "In <color=green>Easy Mode</color>, one target is marked <color=green>green</color> and all other targets are\n<color=grey>gray</color>."
+    },
+    {
+      "gamemodedifficulty": "MEDIUM",
+      "description": "In <color=orange>Medium Mode</color>, one targets is marked <color=green>green</color>, three more targets are\n<color=orange>orange</color> and all others are <color=grey>gray</color>."
+    },
+    {
+      "gamemodedifficulty": "HARD",
+      "description": "In <color=red>Hard Mode</color>, five targets are in a different color (<color=green>green</color>, <color=red>red</color>,\n<color=orange>orange</color>, <color=purple>purple</color>, <color=#A52A2A>gray</color>) all others a <color=grey>gray</color> and the voice command\ngives the color code (English, machine voice) which color to\nshoot"
+    }
+  ],
+  "HuntingGameSpawningConfiguration": [
+    {
+      "Configurationdifficulty": "EASY",
+      "NumberOfTargets": 20,
+      "RadiusAwayFromCenter": 4.3,
+      "YLevelCount": 2,
+      "YOffset": 1.25,
+      "Center": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "TargetMinSize": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "TargetMaxSize": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    {
+      "Configurationdifficulty": "MEDIUM",
+      "NumberOfTargets": 30,
+      "RadiusAwayFromCenter": 4.3,
+      "YLevelCount": 3,
+      "YOffset": 1.25,
+      "Center": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "TargetMinSize": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "TargetMaxSize": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    },
+    {
+      "Configurationdifficulty": "HARD",
+      "NumberOfTargets": 40,
+      "RadiusAwayFromCenter": 4.3,
+      "YLevelCount": 4,
+      "YOffset": 0.75,
+      "Center": {
+        "X": 0.0,
+        "Y": 1.0,
+        "Z": 0.0
+      },
+      "TargetMinSize": {
+        "X": 0.5,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "TargetMaxSize": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      }
+    }
+  ],
+  "HuntingGameSettings": [
+    {
+      "gamemodedifficulty": "EASY",
+      "gamelifetime": 60.0,
+      "targetSwitchTime" : 0.0
+    },
+    {
+      "gamemodedifficulty": "MEDIUM",
+      "gamelifetime": 50.0,
+      "targetSwitchTime" : 4.0
+    },
+    {
+      "gamemodedifficulty": "HARD",
+      "gamelifetime": 40.0,
+      "targetSwitchTime" : 2.5
+    }
+  ]
+}
